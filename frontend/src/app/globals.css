@@ -34,13 +34,13 @@ body {
     --card-foreground: #333333;
     --popover: #e0e0e0;
     --popover-foreground: #222222;
-    --primary: #16423C;
+    --primary: #181C14;
     --primary-foreground: #ffffff;
-    --secondary: #6A9C89;
+    --secondary: #3C3D37;
     --secondary-foreground: #000000;
-    --muted: #C4DAD2;
+    --muted: #697565;
     --muted-foreground: #6b7280;
-    --accent: #E9EFEC;
+    --accent: #ECDFCC;
     --accent-foreground: #ffffff;
     --destructive: #e3342f;
     --destructive-foreground: #ffffff;

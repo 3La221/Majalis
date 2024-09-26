@@ -84,7 +84,7 @@ const Navbar = () => {
                   <Label className="text-right">هل النساء مسموح بالحضور</Label>
                 </div>
               </div>
-              <Button type="submit">إضافة الدرس</Button>
+              <Button type="submit" className='rounded-xl'>إضافة الدرس</Button>
             </DialogContent>
           </Dialog>
           <div className="hidden md:flex space-x-8">
@@ -102,7 +102,7 @@ const Navbar = () => {
           
           <div className="md:hidden">
             <button 
-              className="text-teal-900 hover:text-teal-600 focus:outline-none"
+              className="text-primary hover:text-secondary focus:outline-none"
               onClick={toggleMobileMenu}
             >
               <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -117,7 +117,7 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 flex flex-col justify-start items-center space-y-1 sm:px-3">
           {navBarElements.map((element, index) => (
             <Link href={element.link} key={index}
-              className="hover:text-teal-600 transition-colors text-right">
+              className="hover:text-secondary transition-colors text-right">
               {element.title}
             </Link> 
           ))}
